@@ -61,32 +61,32 @@
 // document.getElementById("output").innerHTML += animal3.printAnimal() + "<br>"; 
 
 
-class Person{
-    profession;
-    gender;
-    age;
+// class Person{
+//     profession;
+//     gender;
+//     age;
 
-    constructor(a, b, c) {
+//     constructor(a, b, c) {
 
-            this.profession = a;
-            this.gender = b;
-            this.age = c;
-    }
+//             this.profession = a;
+//             this.gender = b;
+//             this.age = c;
+//     }
 
-    printPerson() {
-        return `the person is a ${this.type} he is  ${this.gender} with the age of ${this.age} `;
-    }
-}
+//     printPerson() {
+//         return `the person is a ${this.type} he is  ${this.gender} with the age of ${this.age} `;
+//     }
+// }
 
-var person1 = new Person("Scientist", "male", 34);
-console.log(person1.printPerson());
-document.getElementById("output").innerHTML += person1.printPerson() + "<br>"; 
+// var person1 = new Person("Scientist", "male", 34);
+// console.log(person1.printPerson());
+// document.getElementById("output").innerHTML += person1.printPerson() + "<br>"; 
 
-var person2 = new Person("SWorker", "female", 19);
-console.log(person2.printPerson());
-document.getElementById("output").innerHTML += person2.printPerson() + "<br>"; 
+// var person2 = new Person("SWorker", "female", 19);
+// console.log(person2.printPerson());
+// document.getElementById("output").innerHTML += person2.printPerson() + "<br>"; 
 
-var person3= new Person("Teacher", "male", 55);
-console.log(person3.printPerson());
-document.getElementById("output").innerHTML += person3.printPerson() + "<br>"; 
+// var person3= new Person("Teacher", "male", 55);
+// console.log(person3.printPerson());
+// document.getElementById("output").innerHTML += person3.printPerson() + "<br>"; 
 
