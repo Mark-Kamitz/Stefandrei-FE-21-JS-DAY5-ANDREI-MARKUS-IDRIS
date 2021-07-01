@@ -27,7 +27,26 @@ new Student("test 3", 28, "https://cdn.pixabay.com/photo/2021/06/26/00/26/fashio
 new Student("test 4", 28, "https://cdn.pixabay.com/photo/2021/06/26/00/26/fashion-6364998__340.jpg");
 new Student("test 5", 28, "https://cdn.pixabay.com/photo/2021/06/26/00/26/fashion-6364998__340.jpg");
 new Student("test 6", 28, "https://cdn.pixabay.com/photo/2021/06/26/00/26/fashion-6364998__340.jpg");
+
 for (let val of arr) {
     document.getElementById("demo").innerHTML += val.printStudent();
 }
 
+
+
+
+
+
+
+
+
+// // Number Example
+
+// let number = prompt("type a number, please!");
+// if (number > 0 && number < 100) { // 0 < number < 100
+//     document.getElementById("result").innerHTML = "your number is between 0 and 100";
+// } else if (number >= 100 && number <= 200) {
+//     document.getElementById("result").innerHTML = "your number is between 100 and 200";
+// } else {
+//     document.getElementById("result").innerHTML = "your number is bigger than 200";
+// }

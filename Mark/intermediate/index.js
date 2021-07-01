@@ -12,8 +12,7 @@ class Car{
     }
 
     printCar() {
-        return `The vehicle is a ${this.brand} model ${this.model} with the age of ${this.age} `;
-
+        return `The vehicle is a ${this.brand} model ${this.model} it is only ${this.age} Year old`;
     }
 }
 
